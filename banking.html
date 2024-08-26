@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking with First Horizon Bank</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css">
+   
+</head>
+<body>
+    <div> <!--main container-->
+        <header>
+            <!--top bar-->
+            <div class="topbar hidden gap-5 py-2 px-4 flex-row md:flex h-10 bg-gray-100 justify-between" id="topbar">
+               <a href="#" class="left-0"><i class="ri-phone-fill text-blue-700"></i>  800-345-128</a>
+               <div class="ml-auto gap-3 flex">
+                <a href="about.html" class="uppercase ">About Us</a>
+                <a href="#" class="uppercase">Locations</a>
+             
+               </div>
+                
+               
+               
+            </div>
+
+            <nav class="relative w-full bg-white" >
+                <!--flex container-->
+                <div class="flex justify-between px-6 pt-4 mx-auto">
+                    <!--Hamburger Menu-->
+                    <button id="menu-btn" class="block hamburger w-12 mt-3 md:hidden focus:outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                    <!--menu items-->
+                    <div class="hidden md:flex space-x-6">
+                        <a href="personal.html" class="hover:text-red-500">Personal Banking</a>
+                        <a href="small-business.html" class="hover:text-red-500">Small Business</a>
+                        <a href="corporate.html" class="hover:text-red-500">Commercial & Specialty</a>
+                        <a href="wealth-management.html" class="hover:text-red-500">Wealth Management</a>
+    
+                    </div>
+                    <!--logo-->
+                    <div class="pt-2 items-center max-w-32 justify-center">
+                        <a href="./index.html">
+                        <img src="./img/logos/FH_OneLine.png" alt="Logo" class="w-full">
+                       </a>
+                    </div>
+
+                    <!--button and-->
+                    <div>
+                        <a href="login.php" class="bg-white hover:text-red-500 text-blue-800 border-1 border-blue-500 ml-auto md:block p-3 px-6 pt-2 md:text-white md:bg-blue-700 baseline md:hover:bg-blue-900"><i class="ri-git-repository-private-fill"></i>Log In</a>
+                
+                    </div>
+
+                    
+                    
+                    
+                </div>
+    
+                <!--Mobile menu-->
+                <div class="md:hidden">
+                    <div id="menu" class="hidden absolute flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto
+                    sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="personal.html" class="hover:text-red-500">Personal Banking</a>
+                    <a href="small-business.html" class="hover:text-red-500">Small Business</a>
+                    <a href="corporate.html" class="hover:text-red-500">Commercial & Specialty</a>
+                    <a href="wealth-management.html" class="hover:text-red-500">Wealth Management</a>
+                    
+                    </div>
+                </div>
+            </nav>
+        </header>
+         
+        <!--hero section-->
+        <section id="bankhero">
+            <!--f;ex container-->
+            <div class="container flex items-center px-6 py-12 mx-auto mt-10 space-y-0 md:space-y-0">
+                
+                <div class="flex flex-col mb-16 space-y-12 w-full opacity-7 md:w-1/2 bg-white py-10 px-10">
+
+                    <h1 class="max-w-2xl text-4xl font-semibold md:text-5xl text-left mt-12 text-blue-900">
+                        Banking with First Horizon Bank
+                    </h1>
+                    
+
+                </div>
+                <!--image container-->
+                <div class="md:w-1/2">
+                    
+                </div>
+            </div>
+        </section>
+        <section id="subhero">
+            <div class="flex flex-col md:flex-row md:py-24 md:px-10 py-16 px-6 gap-4">
+                <div class="flex flex-col justify-between md:p-6 md:w-1/3 gap-4 md:border-r-neutral-300 md:border-r-2 ">
+                    <img src="./img/form signing.png" alt="" class="w-12 h-12">
+                    <h3 class="md:text-3xl text-2xl text-blue-950 text-left">
+                        Checking
+                    </h3>
+                    <p class="text-left text-lg">
+                        With free mobile deposits, free online bill pay and three different checking options,
+                         checking with First Horizon Bank has never been easier.
+                    
+                    </p>
+                    <a href="start.html" class="px-8 py-3  font-semibold text-left uppercase ease-in">Learn More <i class="ri-arrow-right-line w-12 h-12 rounded-full text-white bg-blue-800 p-2"></i></a>
+              
+                </div>
+                <div class="flex flex-col justify-between md:p-6 gap-2 md:w-1/3 p-3 md:border-r-neutral-300 md:border-r-2 ">
+                    <img src="./img/piggybankoutline.png" alt="" class="w-12 h-12">
+                    <h3 class="md:text-3xl text-2xl text-blue-950 text-left">
+                        Savings
+                    </h3>
+                    <p class="text-left text-lg">
+                        Saving money doesn't have to be a chore. At First Horizon Bank, 
+                        we make saving for your future simple so you can get back to what you love most.
+                    
+                    </p>
+                    <a href="start.html" class="px-8 py-3  font-semibold text-left uppercase ease-in"> start saving <i class="ri-arrow-right-line w-12 h-12 rounded-full text-white bg-blue-800 p-2"></i></a>
+              
+                </div>
+                <div class="flex flex-col justify-between md:p-6 gap-2 md:w-1/3 p-3 ">
+                    <img src="./img/debitcreditcard.png" alt="" class="w-12 h-12">
+                    <h3 class="md:text-3xl text-2xl text-blue-950 text-left">
+                        Credit Cards
+                    </h3>
+                    <p class="text-left text-lg">
+                        Looking to get a credit card? Let us help you find the right card that fits your lifestyle.
+                    
+                    </p>
+                    <a href="start.html" class="px-8 py-3  font-semibold text-left uppercase ease-in">Learn More <i class="ri-arrow-right-line w-12 h-12 rounded-full text-white bg-blue-800 p-2"></i></a>
+              
+                </div>
+                
+            </div>
+
+        </section>
+        <!--features section-->
+        <section id="checking" class="md:pt-10">
+            
+            <div class="container flex flex-row md:px-12 md:py-12 p-6 mx-auto mt-10 md:space-y-0  ">
+                <div class="flex flex-col justify-center gap-4 md:w-1/2 bg-gray-100 px-14 py-14">
+                    <h3 class="md:text-4xl text-2xl text-blue-950 text-left font-semibold">
+                        Your checking, your choice
+                    </h3>
+                    <p class="text-left text-lg">
+                        When you need a checking account, we make it easy with a simple checking selection
+                         tool that quickly offers guidance based on your financial needs.
+                    
+                    </p>
+                    <a href="start.html" class="px-8 py-3 max-w-48 font-semibold text-center uppercase ease-in bg-blue-700 text-white"> start now</a>
+              
+                </div>  
+                
+                
+                    
+                            
+                        
+                    
+                      
+            </div>
+        </section>
+        
+        
+        
+        <footer id="footer" class="bg-blue-950">
+            <!--flex container-->
+            <div class="flex flex-col justify-between px-12 py-10 mx-auto space-y-8 md:space-y-8">
+                <!--Logo and about container-->
+                <div class="flex flex-col items-center justify-between space-y-12 md:space-x-28 md:flex-row md:space-y-0 md:items-start">
+                    <!--logo-->
+                    <div class="mx-auto my-6 text-center">
+                        <img src="./img/logos/logofhb.svg" alt="">
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h4 class="text-lg font-semibold uppercase text-white">About first horizon</h4>
+                        <div class="flex flex-col space-y-3 text-white border-l-2 border-red-400 pl-3">
+                            <a href="#" class="hover:text-red-400">About Us</a>
+                            <a href="#" class="hover:text-red-400">Investor Relations</a>
+                            <a href="#" class="hover:text-red-400">Careers</a>
+                            <a href="#" class="hover:text-red-400">Diversity, Inclusion, Equity</a>
+                        
+                        </div>
+                        
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h4 class="text-lg text-white font-semibold uppercase">products and services</h4>
+                        <div class="flex flex-col space-y-3 text-white border-l-2 border-red-400 pl-3">
+                            <a href="#" class="hover:text-red-400">Personal Banking</a>
+                            <a href="#" class="hover:text-red-400">Small Business Banking</a>
+                            <a href="#" class="hover:text-red-400">Commercial and Specialty</a>
+                            <a href="#" class="hover:text-red-400">Wealth Management</a>
+                        
+                        </div>
+                        
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h4 class="text-lg text-white font-semibold uppercase">Support</h4>
+                        <div class="flex flex-col space-y-3 text-white border-l-2 border-red-400 pl-3">
+                            <a href="#" class="hover:text-red-400">Contact Us</a>
+                            <a href="#" class="hover:text-red-400">FAQs</a>
+                            <a href="#" class="hover:text-red-400">Customer Service Requests</a>
+                            <a href="#" class="hover:text-red-400">Learning Center</a>
+                        
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+                <!--socials container-->
+
+                <div class="flex flex-col items-center justify-between space-y-12 md:space-x-28 md:flex-row md:space-y-0 md:items-start">
+                   
+                    <!--logo-->
+                    <div class="mx-auto my-6 text-center">
+                        <img src="./img/downloadmobileapp.svg" alt="">
+                    </div>
+                    <div class="flex flex-1 flex-col gap-3">
+                        <h4 class="text-lg font-semibold uppercase text-white">Socials</h4>
+                        <div class="flex flex-row gap-2 border-l-2 border-red-400 pl-3">
+                            <a href="#">
+                                <img src="./img/icon-facebook.svg" alt="" class="h-8" />
+                            </a>
+                            <a href="#">
+                                <img src="./img/icon-instagram.svg" alt="" class="h-8" />
+                            </a>
+                            <a href="#">
+                                <img src="./img/icon-pinterest.svg" alt="" class="h-8" />
+                            </a>
+                            <a href="#">
+                                <img src="./img/icon-twitter.svg" alt="" class="h-8" />
+                            </a>
+                            <a href="#">
+                                <img src="./img/icon-youtube.svg" alt="" class="h-8" />
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="flex flex-row gap-3">
+                        <p class="text-white">Member FDIC. Equal Housing Lender.</p>
+                        <img src="./img/memberfdic.svg" alt="">
+                        
+                    </div>
+                   
+                    
+                </div>
+                
+                <div class="hidden w-full md:flex flex-row py-6 px-6 items-center justify-between space-x-5 gap-3 bg-gray-900 text-white uppercase">
+                    
+                        <a href="#" class="hover:text-red-400">fraud and security</a>
+                        <a href="#" class="hover:text-red-400">Copyright claims</a>
+                        <a href="#" class="hover:text-red-400">privacy policy</a>
+                        <a href="#" class="hover:text-red-400">online privacy policy</a>
+                        <a href="#" class="hover:text-red-400">california privscy policy</a>
+                        <a href="#" class="hover:text-red-400">accessibility</a>
+                    
+                    
+                    
+                </div>
+                <div class="hidden w-full md:flex flex-row py-6 px-6 items-center justify-between space-x-5 gap-3 bg-gray-900 text-white">
+                    
+                    <div>
+                        <p class="border-l-2 border-blue-500 text-left text-sm pl-3 p-4 my-4">
+                            Insurance Products, Investments & Annuities: 
+                            Not A Deposit, Not Guaranteed By The Bank Or Its 
+                            Affiliates, Not FDIC Insured, Not Insured By Any 
+                            Federal Government Agency, May Go Down In Value
+                        </p>
+                        <p class="text-sm">
+                            Banking Products and Services provided by First Horizon Bank. Member FDIC. Equal Housing Lender.
+
+Insurance Products and Annuities: May be purchased from any agent or company, and the customer’s choice will not affect current or future credit decisions.
+
+First Horizon Advisors is the trade name for wealth management products and services provided by First Horizon Bank and its affiliates. Trust services and financial planning provided by First Horizon Bank.
+
+Investment management services, investments, annuities and financial planning available through First Horizon Advisors, Inc., member FINRA, SIPC, and a subsidiary of First Horizon Bank. Arkansas Insurance License # 416584.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Insurance products available through First Horizon Insurance Services, Inc. (”FHIS”), a subsidiary of First Horizon Bank. Arkansas Insurance License # 100102095.
+
+First Horizon Advisors, Inc., FHIS, and their agents may transact insurance business or offer annuities only in states where they are licensed or where they are exempted or excluded from state insurance licensing requirements.
+
+The contents of this website are for informational purposes only. Nothing on this website should be considered investment advice; or, a recommendation or offer to buy or sell a security or other financial product or to adopt any investment strategy.
+
+First Horizon Advisors does not offer tax or legal advice. You should consult your personal tax and/or legal advisor concerning your individual situation.
+
+©2024 First Horizon Bank. Member FDIC.
+                        </p>
+                    </div>
+                
+                
+                
+            </div>
+                
+            </div>
+
+        </footer>
+        
+
+    </div>
+
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>

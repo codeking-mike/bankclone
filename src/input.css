@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    
+}
+
+#hero{
+    background-image: url('./img/KathyHenryHeroImage-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bankhero{
+    background-image: url('./img/biking.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#heropersonal{
+    background-image: url('./img/Commercialhero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#checking{
+    background-image: url('./img/momdaughterpiggybankbanking.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#herowealth{
+    background-image: url('./img/hero-wealth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroabout{
+    background-image: url('./img/about-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#dei{
+    background-image: url('./img/deiimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#community{
+    background-image: url('./img/DEIimage2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#loginhero{
+    background-image: url('./img/login-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 576px){
+    #hero{
+        background-image: url('./img/home_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    #cta{
+        background-image: url('./img/bg-simplify-section-mobile.svg');
+    }
+}
+
+/*. Hamburger Menu.*/
+
+.hamburger{
+    cursor:pointer;
+    width:24px;
+    height: 24px;
+    transition: all 0.25s;
+    position:relative
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom{
+    position: absolute;
+    top:0;
+    left:0;
+    width:24px;
+    height: 3px;
+    background:#444;
+    transform:rotate(0);
+    transition: all 0.5s;
+}
+.hamburger-middle{
+    transform: translateY(7px);
+    
+}
+.hamburger-bottom{
+    transform: translateY(14px);
+    
+}
+.open{
+    transform: rotate(90deg);
+    transform: translateY(0px);
+
+}
+
+.open .hamburger-top{
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .hamburger-middle{
+    display: none;
+}
+.open .hamburger-bottom{
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.footer-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+
